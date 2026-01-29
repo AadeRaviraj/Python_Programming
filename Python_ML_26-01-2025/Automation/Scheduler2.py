@@ -6,7 +6,7 @@ def fun():
     print("Inside fun at : ", datetime.datetime.now())
 
 def main(): 
-    print("Inside Marvellous Automationscript at  : ", datetime.datetime.now())
+    print("Inside  Automationscript at  : ", datetime.datetime.now())
     
     schedule.every(20).seconds.do(fun)
     ##problem in this code 

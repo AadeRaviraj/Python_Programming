@@ -9,7 +9,7 @@ def main():
     
     print(Border)
     
-    print("--------- Marvellous Automation --------")
+    print("--------- Automation --------")
     
     print(Border)
     
@@ -36,7 +36,7 @@ def main():
         
     print(Border)
     print("-------- Thanku for using script -------")
-    print("--------- Marvellous Infosystems -------")
+    print("---------  -------")
     
     
     print(Border)

@@ -2,7 +2,7 @@
 # Return : Nothing
 
 def Marvellous1(Value):
-    print("Inside Marvellous1 : ",Value)
+    print("Inside m1 : ",Value)
 
 def main():
     Marvellous1("Python")

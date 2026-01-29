@@ -2,7 +2,7 @@
 # Return : Nothing
 
 def Marvellous1():
-    print("Inside Marvellous1")
+    print("Inside m1")
 
 def main():
     Marvellous1()

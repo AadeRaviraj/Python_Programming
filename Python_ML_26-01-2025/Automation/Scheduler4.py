@@ -9,7 +9,7 @@ def gun():
     print("Inside gun at : ", datetime.datetime.now())
 
 def main(): 
-    print("Inside Marvellous Automationscript at  : ", datetime.datetime.now())
+    print("Inside  Automation script at  : ", datetime.datetime.now())
     
     # schedule.every(20).seconds.do(fun)
 
