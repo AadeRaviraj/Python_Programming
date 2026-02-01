@@ -15,14 +15,11 @@ class Arithematic :
         Ans = self.No1 - self.No2
         return Ans
     
-Obj1 = Arithematic(11, 10)
-    
-Obj2 = Arithematic(21,20)
+obj1 = Arithematic(11,10)    # Arithematic(id(obj1),11,10)  -> __init__(id(obj1),11,10)
+obj2 = Arithematic(21,20)    # Arithematic(id(obj2),21,20)  -> __init__(id(obj2),21,20)
 
-Ret = Obj1.Addition() 
-print(Ret)
+Ret = obj1.Addition()   # Addition(id(obj1)) -> Addition(1000) #1000 is a random memory address
+print(Ret)  # 21
 
-
-Ret = Obj2.Substraction() 
-print(Ret)
-    
+Ret = obj2.Substraction()   # Substraction(id(obj2))    -> Substraction(2000)
+print(Ret)  # 1
