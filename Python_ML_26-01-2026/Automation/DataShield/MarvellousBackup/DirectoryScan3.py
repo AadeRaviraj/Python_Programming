@@ -9,23 +9,15 @@ def DirectoryScanner(DirectoryName = "Marvellous"):
         print("There is no such directory")
         return
     
-    ret = os.path.isdir(DirectoryName)
-    
-    if ret == False:
-        print("Unable to scan as it not a directory :")
-        return
-    
     print("Contents of the directory are  : ")   
- 
+    
     for FolderName , SubFolderName , FileName in os.walk(DirectoryName):
         print("Folder  name : ", FolderName)
     
         for subf in SubFolderName:
- 
-            print("Sub Folder name : ", subf  )
+            print("Sub Folder name : ", subf)
             
         for fname in FileName:
- 
             print("File name : ", fname)
     
 def main():

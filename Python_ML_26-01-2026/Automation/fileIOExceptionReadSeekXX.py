@@ -7,12 +7,12 @@
 def main():
 
     try :
-        fObj= open("Hello.txt","r")
+        fObj= open("Hello.txt","rb")
         print("File Gets successfully opened ")
         
         print("current Offset is : ", fObj.tell())  # 0 
         
-        fObj.seek(6,1)
+        fObj.seek(5,1)
         
         print("current Offset is : ", fObj.tell())  # 11
         
