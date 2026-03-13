@@ -65,8 +65,8 @@ def MarvellousKNeighborClassifier():
     
     # voting 
     votes = {}
-    for neighbour in nearest:
-        label = neighbour['label']
+    for neighbor in nearest:
+        label = neighbor['label']
         votes[label] = votes.get(label,0)+1
     
     print(border)
@@ -77,7 +77,7 @@ def MarvellousKNeighborClassifier():
         print("Name :",d,"Number of votes :",votes[d])
     print(border)
     
-    predicted_class = max(votes,key=votes.get)
+    predicted_class = max(votes,key=votes.get) # type: ignore
     
     print("Predicted class of (3,3) is : ", predicted_class)
     

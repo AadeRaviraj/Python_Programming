@@ -6,8 +6,6 @@ from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
 
-
-
 def main():
     iris = load_iris()
     
