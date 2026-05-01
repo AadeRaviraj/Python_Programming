@@ -33,7 +33,7 @@ def MarvellousPredictor():
     
     m = numerator / denominator
     
-    print("Slope of line ie m : ",m) # 0.4
+    print("Slope of line ie m : ",m) # 0.4  Coefficient 
     
     C = mean_y - (m * mean_x)
     print("Y intercept of line is C :", C)    # 2.4

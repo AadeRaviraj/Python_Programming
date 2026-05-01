@@ -1,0 +1,55 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+
+
+def main():
+    # - -----------------------------------------------------------
+    # Step 1 : Load the dataset 
+    # -------------------------------------------------------------
+    print("Load the dataset ")
+    df = pd.read_csv("Mall_Customers.csv")
+    
+    print("First few records --")
+    print(df.head())
+    print("Shape of dataset :")
+    print(df.shape)
+    
+    
+    print("Missing values : ")
+    print(df.isnull().sum())
+    
+    
+    # - -----------------------------------------------------------
+    # Step 2 : Select feature (independent) 
+    # -------------------------------------------------------------
+    print("Step 2 : Select feature (independent) ")
+    
+    X = df[["AnnualIncome","SpendingScore"]]
+    
+    print("Selected feature : ")
+    print(X.head())
+    print("selected features : ")
+    print(X.shape)
+    
+    
+    
+    # - -----------------------------------------------------------
+    # Step 3 : Scale the data
+    # ------------------------------------------------------------
+    
+    
+    scaler = StandardScaler()
+    X_Scale = scaler.fit_transform(X)
+    
+    print("Data after Scaling : ")
+    
+    print(X_Scale[:5])
+    
+    
+    
+    
+if __name__ == "__main__":
+    main()

@@ -1,5 +1,5 @@
 from sklearn import tree
-
+from sklearn.metrics import classification_report
 # Rough = 1
 # Smooth = 0
 
@@ -45,7 +45,8 @@ def main():
     
     # print("Model Predicts the object  as : ",Result)
     
-    
+    # report = classification_report(Ytest,Result)
+    # print(report)
 
 
 

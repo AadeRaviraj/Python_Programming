@@ -8,8 +8,8 @@ from sklearn.metrics import accuracy_score
 def main():
     iris = load_iris()
     
-    X = iris.data
-    Y = iris.target
+    X = iris.data # type: ignore
+    Y = iris.target # type: ignore
     
     X_train , X_test, Y_train,Y_test = train_test_split(X,Y,train_size = 0.2)
     model = DecisionTreeClassifier()
