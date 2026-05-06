@@ -1,5 +1,5 @@
 #########################################
-# Required Python Packages   (Croologicl jmport)
+# Required Python Packages
 #########################################
 import pandas as pd
 import numpy as np
