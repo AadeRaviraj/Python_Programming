@@ -1,10 +1,5 @@
 tf_env/
 venv/
+CSV_files/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.dll
-*.exe
-CSV_files/Fake.csv
-CSV_files/True.csv
+*.csv
