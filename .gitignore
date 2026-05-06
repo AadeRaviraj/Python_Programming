@@ -2,4 +2,3 @@ tf_env/
 venv/
 CSV_files/
 __pycache__/
-*.csv
