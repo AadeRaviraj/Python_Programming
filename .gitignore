@@ -6,3 +6,5 @@ __pycache__/
 *.pyd
 *.dll
 *.exe
+CSV_files/Fake.csv
+CSV_files/True.csv
