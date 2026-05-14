@@ -1,0 +1,20 @@
+GPT USES :-internally 
+
+| Concept          | Use               |
+| ---------------- | ----------------- |
+| Transformer      | core architecture |
+| Self-Attention   | context समजणे     |
+| Backpropagation  | learning          |
+| Gradient Descent | weights update    |
+| Softmax          | probability       |
+| Tokenization     | text split        |
+| Embeddings       | text → vectors    |
+| RLHF             | human alignment   |
+
+
+
+
+Activation Function	Use
+ReLU	जुने models
+GELU	GPT/BERT मध्ये common
+SwiGLU	newer LLMs
