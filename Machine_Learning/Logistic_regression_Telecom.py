@@ -22,3 +22,42 @@ data = {
 df = pd.DataFrame(data)
 
 print(df)
+
+# separate  data
+
+X = df.drop("Churn", axis=1)
+y = df["Churn"]
+
+# train test split data 
+
+X_train, X_test, Y_train, Y_test = train_test_split(
+    X,
+    y,
+    test_size= 0.2,
+    random_state= 42
+)
+
+# feature scaling 
+
+scaler = StandardScaler()
+
+X_train = scaler.fit_transform(X_train)
+
+X_test = scaler.transform(X_test)
+
+
+model = LogisticRegression()
+
+model.fit(
+    X_train,Y_train
+)
+
+# modle predict 
+
+predict = model.predict(X_test)
+
+accuracy = accuracy_score(
+    Y_test, predict
+)
+
+print("Accueacy of the  modle :", accuracy)
