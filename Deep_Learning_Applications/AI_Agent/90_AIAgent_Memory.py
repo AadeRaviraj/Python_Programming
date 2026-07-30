@@ -21,7 +21,7 @@ def agent(user_input):
         return str(memory)
 
     else:
-        return "I can remember your name. Try: My name is Rahul"
+        return "I can remember your name. Try: My name is Raviraj"
 
 while True:
     query = input("User: ")
