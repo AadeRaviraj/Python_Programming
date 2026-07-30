@@ -13,3 +13,4 @@ print("Standard deviation :", np.std(data1))
 print("-------------------------------------------")
 
 print("Mean data2 : ", np.mean(data2))
+print("Variance Data : ", np.var(data2))
