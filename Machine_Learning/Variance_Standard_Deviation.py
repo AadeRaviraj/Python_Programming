@@ -9,3 +9,7 @@ data2 = [10, 20, 30, 40, 50]
 print("Mean data1 :", np.mean(data1))
 print("Variance Data : ", np.var(data1))
 print("Standard deviation :", np.std(data1))
+
+print("-------------------------------------------")
+
+print("Mean data2 : ", np.mean(data2))
