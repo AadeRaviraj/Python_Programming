@@ -45,7 +45,7 @@ boost_model = GradientBoostingRegressor(
     )
 
 
- 
+
 
 # ---------------------------------------------------------------------------------------------------------
 # Step 5 : Train Boosting model
